@@ -10,6 +10,9 @@ You can install the package via Composer:
 composer require rdhafiz/laravel-vue-spa
 ```
 ```bash
+php artisan LaravelVueSpa
+```
+```bash
 npm install && npm install vue vue-router vuex axios vue-page-transition -save
 ```
 ```bash
