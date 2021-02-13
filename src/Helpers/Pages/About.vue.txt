@@ -1,0 +1,16 @@
+<template>
+    <div class="_well">
+        <div class="container">
+            <h3>About Page</h3>
+            <h1>Laravel Vue SPA</h1>
+            <ul>
+                <li><router-link :to="{name: 'home'}">Home</router-link></li>
+                <li><router-link :to="{name: 'about'}">About</router-link></li>
+                <li><router-link :to="{name: 'contact'}">Contact</router-link></li>
+            </ul>
+        </div>
+    </div>
+</template>
+<script>
+export default {}
+</script>

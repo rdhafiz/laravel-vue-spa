@@ -1,0 +1,20 @@
+import VueRouter from "vue-router";
+
+//=====================
+// Demo Pages
+//=====================
+import Home from '../Pages/Home'
+import About from '../Pages/About'
+import Contact from "../Pages/Contact"
+
+const ROOT_URL = '';
+const router = new VueRouter({
+    mode: 'history',
+    routes: [
+        {path: ROOT_URL + '', name: 'home', component: Home},
+        {path: ROOT_URL + '/about', name: 'about', component: About},
+        {path: ROOT_URL + '/contact', name: 'contact', component: Contact,},
+    ],
+});
+
+export default router;

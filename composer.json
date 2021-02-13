@@ -1,0 +1,26 @@
+{
+    "name": "rdhafiz/laravel-vue-spa",
+    "description": "Laravel Vue SPA  - A php library to setup a Laravel Vue SPA project environment by couple of small commands",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ridwanul Hafiz",
+            "email": "ridwanul.hafiz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Rdhafiz\\LaravelVueSpa\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rdhafiz\\LaravelVueSpa\\LvsServiceProvider"
+            ]
+        }
+    }
+}

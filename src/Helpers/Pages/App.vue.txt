@@ -1,0 +1,78 @@
+<template>
+  <vue-page-transition name="fade">
+    <router-view></router-view>
+  </vue-page-transition>
+</template>
+<script>
+export default {}
+</script>
+<style lang="scss">
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+._well{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        width: 100%;
+        max-width: 600px;
+    }
+    h1{
+        text-align: center;
+        font-size: 60px;
+        background: #6C63FF !important;
+        background: -webkit-linear-gradient(to right, #6C63FF 0%, #eb3b5a 100%) !important;
+        background: -moz-linear-gradient(to right, #6C63FF 0%, #eb3b5a 100%) !important;
+        background: linear-gradient(to right, #6C63FF 0%, #eb3b5a 100%) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+    }
+    h3{
+        text-align: center;
+        font-size: 25px;
+        background: #6C63FF !important;
+        background: -webkit-linear-gradient(to right, #6C63FF 0%, #eb3b5a 100%) !important;
+        background: -moz-linear-gradient(to right, #6C63FF 0%, #eb3b5a 100%) !important;
+        background: linear-gradient(to right, #6C63FF 0%, #eb3b5a 100%) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+    }
+    ul{
+        display: table;
+        margin: 50px auto 0 auto;
+        list-style: none;
+        padding: 0;
+        li{
+            float: left;
+            width: 100px;
+            a{
+                color: #9d9d9d;
+                font-weight: bold;
+                font-size: 20px;
+                width: 100%;
+                display: block;
+                text-align: center;
+                text-decoration: none;
+                &:hover,&:active{
+                    text-decoration: none;
+                    color: #eb3b5a;
+                }
+                &.router-link-exact-active{
+                    background: #6C63FF !important;
+                    background: -webkit-linear-gradient(to right, #6C63FF 0%, #eb3b5a 100%) !important;
+                    background: -moz-linear-gradient(to right, #6C63FF 0%, #eb3b5a 100%) !important;
+                    background: linear-gradient(to right, #6C63FF 0%, #eb3b5a 100%) !important;
+                    -webkit-background-clip: text !important;
+                    -webkit-text-fill-color: transparent !important;
+                }
+            }
+        }
+    }
+}
+</style>
