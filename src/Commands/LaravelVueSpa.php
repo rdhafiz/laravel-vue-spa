@@ -39,8 +39,9 @@ class LaravelVueSpa extends Command
     public function handle()
     {
         $webRoute = file_get_contents(base_path().'/routes/web.php');
+        $webRoute = str_replace("'/'", "'/app'", $webRoute);
+        $webRoute = str_replace("Route::get('/{any}', 'LaravelVueSpaController@index')->where('any', '.*')->name('lvs.home');", "", $webRoute);
         $webRoute .= PHP_EOL.PHP_EOL;
-        $webRoute .= str_replace("'/'", "'/app'", $webRoute);
         $webRoute .= "Route::get('/{any}', 'LaravelVueSpaController@index')->where('any', '.*')->name('lvs.home');";
         file_put_contents(base_path().'/routes/web.php', $webRoute);
 
