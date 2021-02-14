@@ -1,8 +1,8 @@
-![](examples/demo.gif)
+[<img src="https://raw.githubusercontent.com/rdhafiz/laravel-vue-spa/master/examples/demo.gif" width="100%"/>]
 
 # Laravel Vue SPA
 
-Laravel Vue SPA  - A php library to setup a Laravel Vue SPA project environment by couple of small commands
+Laravel Vue SPA  - A php library to setup a Laravel Vue SPA project environment with couple of small commands.
 
 ## Installation
 
@@ -39,7 +39,8 @@ The package will automatically register its service provider.
 ![](examples/view.jpg)
 
 ### Vue Development Configuration Folder Structure
-    .
+```resources/js```
+
     ├── ...
     ├── js                    ### Vue Development Folder
     │   ├── Pages             # Folder where all vue pages are stored
