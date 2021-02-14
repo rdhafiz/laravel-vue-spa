@@ -1,4 +1,4 @@
-[<img src="https://raw.githubusercontent.com/rdhafiz/laravel-vue-spa/master/examples/demo.gif" width="100%"/>]
+<img src="https://raw.githubusercontent.com/rdhafiz/laravel-vue-spa/master/examples/demo.gif" width="100%"/>
 
 # Laravel Vue SPA
 
