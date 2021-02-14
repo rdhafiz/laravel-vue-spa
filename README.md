@@ -4,7 +4,7 @@ Laravel Vue SPA  - A php library to setup a Laravel Vue SPA project environment 
 
 ## Installation
 
-You can install the package via Composer:
+Run This commands inside a Fresh or existing Laravel project
 
 ```bash
 composer require rdhafiz/laravel-vue-spa
