@@ -43,16 +43,16 @@ The package will automatically register its service provider.
 
     ├── ...
     ├── js                    ### Vue Development Folder
-    │   ├── Pages             # Folder where all vue pages are stored
-    │   │   ├── About.vue     # Demo About us page
-    │   │   ├── Contact.vue   # Demo Contact us page
-    │   │   ├── Home.vue      # Demo Home page
+│   ├── Pages                   # Folder where all vue pages are stored
+    │   │   ├── About.vue       # Demo About us page
+    │   │   ├── Contact.vue     # Demo Contact us page
+    │   │   ├── Home.vue        # Demo Home page
     │   ├── Router            ### Vue Route Folder
-    │   │   ├── router.js     # All Vue Routes are here
+    │   │   ├── router.js       # All Vue Routes are here
     │   ├── Store             ### Vuex Manager Folder
-    │   │   ├── store.js      # Vues file to manage vuex data
+    │   │   ├── store.js        # Vues file to manage vuex data
     │   ├── app.js            ### Vue configure File
-    │   ├── App.vue           # Root Vue Template      
+    │   ├── App.vue           ### Root Vue Template      
     └── ...
 
 
